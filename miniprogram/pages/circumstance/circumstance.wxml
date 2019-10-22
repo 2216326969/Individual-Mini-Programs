@@ -1,0 +1,13 @@
+<view class="header">
+  <image src="../../images/1.jpg" class="tu1"></image>
+  <view class="txt">
+    <view>
+      <view>{{lists.author.loginname}}</view>
+      <view class="tex_a">{{lists.visit_count}}次浏览来自{{lists.tab}}</view>
+    </view>
+    <image src="../../images/sh.png" class="tu2"></image>
+  </view>
+</view>
+<view>
+  <rich-text nodes="{{lists.content}}"></rich-text>
+</view>   

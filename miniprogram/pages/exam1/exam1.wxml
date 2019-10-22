@@ -1,2 +1,17 @@
-<!--pages/exam1/exam1.wxml-->
-<text>pages/exam1/exam1.wxml</text>
+<view class="vie_a" wx:for="{{list}}" wx:key="index">
+  <image src="../../images/1.jpg" class="left-img" bindtap="skip" ></image>
+  <view class="right-text">
+    <view class="title_a" bindtap="check" data-id="{{item.id}}">
+      {{item.title}}
+    </view>
+    <view class="text-b">
+      <view class="reflex-nub">{{item.reply_count}}/</view>
+      <!-- <ex class="d3"></ex> -->
+      <view class="d2">
+        {{item.visit_count}}
+        <ex> {{item.tab}} </ex>
+      </view>
+      <view class="d1">1分钟前</view>
+    </view>
+  </view>
+</view>

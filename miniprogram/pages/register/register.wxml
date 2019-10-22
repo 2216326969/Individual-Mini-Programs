@@ -1,0 +1,7 @@
+<view class="title">用户注册</view>
+<view class="vie_a">
+  <input class="input_a" placeholder="请输入用户名" bindinput="inputName"></input>
+  <input class="input_b" placeholder="请输入密码" bindinput="inputPassword" type="password"></input>
+  <van-button type="primary" size="large" bindtap="register">注册</van-button>
+  <button bindtap="skips">已有账号立即登录</button>
+</view>

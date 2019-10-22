@@ -1,13 +1,37 @@
 {
   "pages": [
-    "pages/exam1/exam1"
+    "pages/land/land",
+    "pages/register/register",
+    "pages/exam2/exam2",
+    "pages/exam1/exam1",
+    "pages/details/details",
+    "pages/circumstance/circumstance"
+   
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "CNode:Nodejs专业中文社区",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#d1d1d1",
+    "selectedColor": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/exam1/exam1",
+        "text": "首页",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png"
+      },
+      {
+        "pagePath": "pages/exam2/exam2",
+        "text": "个人",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png"
+      }
+    ]
+  }
 }

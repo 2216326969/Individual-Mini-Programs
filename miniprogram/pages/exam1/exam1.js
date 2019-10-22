@@ -5,21 +5,46 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list:[],
+    pno:0
   },
-
+  skip:function(){
+    wx.navigateTo({
+      url: '/pages/details/details',
+    })
+  },
+  check:function(event){
+    var id=event.target.dataset.id;
+    wx.navigateTo({
+      url: '/pages/circumstance/circumstance?id='+id,
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // var that=this;
+    wx.request({
+      url: 'https://cnodejs.org/api/v1/topics',
+      method:'get',
+      header:{
+        'content-type':'application/json'
+      },
+      success:res=>{
+        this.setData({
+          list:res.data.data
+        })
+        // console.log(res.data.data)
+        // console.log(res.data.data[0])
+      }
+    })
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**

@@ -1,0 +1,22 @@
+/* pages/circumstance/circumstance.wxss */
+.header{
+  display: flex;
+}
+.header .tu1{
+  width:170rpx;
+  height: 130rpx;
+  padding: 5px 8px;
+}
+.header .tu2{
+  width: 60rpx;
+  height:60rpx;
+  position: absolute;
+  right: -100px;
+  top: 0
+}
+.txt{ 
+  position: relative;
+}
+.tex_a{
+  margin-top:17px;
+}

@@ -1,0 +1,29 @@
+.vie_a{
+  margin: 0 auto
+}
+view .input_a,view .input_b{
+  width:260px;
+  padding:9px 15px;
+  border: 1px solid #999;
+  border-radius: 7px;
+} 
+.input_a{
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+.input_b{
+  margin-bottom: 30px;
+}
+.title{
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom:30px;
+}
+button{
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+

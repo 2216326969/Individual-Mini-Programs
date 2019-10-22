@@ -1,0 +1,57 @@
+/* pages/exam2/exam2.wxss */
+.img>image{
+  border-radius: 50%;
+  width: 150px;
+  height: 120px;
+  margin-top:20px;
+}
+.img{
+  text-align: center
+}
+/*320 240 /4*/
+van-button{
+  border-radius: 50%;
+  padding: 0;
+  
+}
+.land{
+  font-weight: 800;
+}
+.vie_b{
+  margin: 0 auto;
+}
+.vie_c{
+  text-align: center;
+  margin-top: 40px;
+}
+.vie_b input{
+  border: 1px solid #d1d1d1;
+  width: 220px;
+  background: #fff;
+  padding: 9px 25px;
+  border-radius: 20px;
+}
+.input_a{
+  margin-top:35px;
+}
+.input_b{
+  margin-top:15rpx;
+}
+.imag_a{
+  width:7px;
+  height:7px;
+  position: relative;
+  left:15rem;
+  bottom:32px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.footer view{
+  font-size: 14px;
+}
+.footer>.comminute{
+  color:#999;
+}

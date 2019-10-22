@@ -1,0 +1,20 @@
+<view class="img">
+  <image src="../../images/99.jpg"></image>
+</view>
+<view class="vie_b">
+  <input placeholder="请输入用户名" name="username" class="input_a" bindinput="inputName"></input>
+  <image class="imag_a" src="../../images/header_normal.png"></image>
+  <input placeholder="请输入密码" type="password" class="input_b" bindinput="inputPassword"></input>
+</view>
+<view class="vie_c" bindtap="login">
+    <van-button round type="info">→</van-button>
+</view>
+
+  <view class="footer">
+    <view>忘记密码</view>
+    <view class="comminute">|</view>
+    <view bindtap="register">用户注册</view>
+  </view>
+  
+
+
